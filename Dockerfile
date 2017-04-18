@@ -24,4 +24,8 @@ COPY easy-wp-smtp/ /usr/src/wordpress/wp-content/plugins/easy-wp-smtp/
 RUN mkdir socialize-lite/
 COPY socialize-lite/ /usr/src/wordpress/wp-content/themes/socialize-lite/
 
+RUN mkdir buddydrive/
+COPY buddydrive/ /usr/src/wordpress/wp-content/plugins/buddydrive/
+
 RUN chown -R www-data:www-data /usr/src/wordpress/wp-content/plugins
+RUN chown -R www-data:www-data /usr/src/wordpress/wp-content/themes

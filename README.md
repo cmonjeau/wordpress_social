@@ -5,6 +5,7 @@ Install wordpress on a docker image with social plugins:
  - Buddypress
  - Buddypress docs
  - Bbpress
+ - Buddydrive
 
  admin plugins:
 
