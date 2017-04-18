@@ -1,4 +1,4 @@
-## Worpdress social with docker
+## Wordpress social with docker
 
 Install wordpress on a docker image with social plugins:
 
